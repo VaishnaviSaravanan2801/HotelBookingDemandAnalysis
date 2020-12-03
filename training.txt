@@ -1,0 +1,9 @@
+Use (Logistic Regression)
+    from sklearn.model_selection import train_test_split
+After importing split x and y
+Split  the data around 20%-80% between testing and training stages.
+We have the test dataset(or subset)in order to test our model’s prediction on this subset.
+Let Positive be (P), Negative be (N) , True Positive be (TP) , False Negative be (FN), True Negative be (TN), False Positive be (FP).
+
+perform Fit and predict operation   
+    from sklearn.linear_model import LogisticRegression
