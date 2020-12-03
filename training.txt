@@ -7,3 +7,11 @@ Let Positive be (P), Negative be (N) , True Positive be (TP) , False Negative be
 
 perform Fit and predict operation   
     from sklearn.linear_model import LogisticRegression
+    
+Accuarcy score: from sklearn import		
+Accuarcy=TP+TN/TP+TN+FP+FN
+Confusion matrix
+Recall Score: Recall =TP/TP+FN
+Precision Score: Precision=TP/TP+FP
+Mean squared error and variance
+Classification report
