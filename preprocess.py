@@ -1,7 +1,6 @@
 import numpy as np 
 import pandas as pd
 data = pd.read_csv("D:\Machine Learning\Datasets\hotel_bookings.csv")
-Preprocessing
 data.head()
 data.head(n=35)
 data.describe()
