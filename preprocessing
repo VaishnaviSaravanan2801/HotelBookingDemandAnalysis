@@ -1,0 +1,13 @@
+Load dataset: Using pandas load csv file format of our data
+  Shape of data: Use .shape method get the no of rows and columns of dataset
+        head(): Use .head() method to show the first 5 data of dataset. 
+                     Use .head(35) for getting first 35 data.
+      tail(): Using .tail() method will show the last 5 data of dataset 
+      isnull(): This method will shown  any null values of the dataset if exists
+      isnull.sum(): Use to find the sum of null values of dataset.
+describe(): This method will describe all the feautures of the dataset like mean count max std variance etc..
+info(): This will return information about the dataframe including the data types of each column and memory usage 
+      corr(): Used to find the pairwise correlation of all columns in the dataframe. 
+      dtypes: This returns a Series with the data type of each column.
+      unique(): Uniques are returned in order of appearance.
+      value_counts(): This method will be shown in count outcome values 
